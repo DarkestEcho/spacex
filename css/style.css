@@ -213,14 +213,29 @@
         .video {
             width: 100%;
         }
+        .table {
+            margin: auto;
+            margin-bottom: 0;
+        }
+        .features-title {
+            margin-top: 100px;
+            text-align: center;
+        }
+        .features-text {
+            margin: auto;
+            text-align: center;
+        }
     }
     
     @media(max-width: 576px) {
         .rocket {
             position: static;
-            margin-bottom: 30px;
+            display: block;
+            margin: auto;
+            margin-bottom: 50px;
         }
         .table {
+            margin: auto;
             margin-bottom: 0;
         }
         .table-column {
@@ -243,5 +258,11 @@
         }
         .features {
             padding-bottom: 0;
+        }
+        .features-title {
+            text-align: center;
+        }
+        .features-text {
+            text-align: justify;
         }
     }
